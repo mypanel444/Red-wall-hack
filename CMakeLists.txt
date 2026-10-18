@@ -8,7 +8,6 @@ target_include_directories(longrangered PRIVATE .)
 
 target_link_libraries(longrangered
     log
-    android
     dl
     m
 )
